@@ -5,6 +5,28 @@
     margin-inline: auto;
 }
 
+:root {
+    --primary-color: #6BA292;
+    --primary-dark: #3d665a;
+    --on-primary-color: #fff;
+    --backgroung-color: #f3f3f3f3;
+}
+
+body {
+    font-family: 'Open Sans', 'Inter', Arial, Helvetica, sans-serif;
+
+    h2, h3 {
+        font-family: 'Marcellus', Garamond, 'Inter', Arial, Helvetica, sans-serif;
+    }
+
+    h3 {
+        font-size: 3rem;
+        font-weight: 600;
+        color: var(--primary-color);
+        margin-bottom: 16px;
+    }
+}
+
 .flex {
     display: flex;
 }
@@ -31,7 +53,7 @@
 }
 
 header {
-    background: #EDD9E0;
+    background: #fff;
 }
 
 .title {
@@ -39,9 +61,10 @@ header {
 }
 
 h1 {
+    font-size: 3rem;
     right: 2px;
     line-height: 56px;
-    color: #432e27;
+    color: var(--primary-color);
     font-weight: 500;
     text-transform: uppercase;
     place-content: center;
@@ -61,12 +84,12 @@ nav ul li {
 
     a {
         text-decoration: none;
-        color: #525252;
+        color: var(--primary-color);
         font-size: 1.6rem;
         font-weight: 500;
     
         &:hover {
-            color: #7A5246;
+            color: var(--primary-dark);
             transition: color 0.25s ease-in-out;
         }
     }
@@ -88,9 +111,6 @@ li + li {
 .hero-banner {
     height: 600px;
     background: #fff url(../img/skincare.jpg) center center / cover no-repeat;
-    /* display: flex;
-    flex-direction: column;
-   justify-content: center; */
 }
 
 .hero-content {
@@ -100,5 +120,52 @@ li + li {
     h2 {
         font-size: 8rem;
         line-height: 1;
+        font-family: 'Marcellus', Garamond, 'Inter', Arial, Helvetica, sans-serif;
     }
+
+    p{
+        font-size: 2.3rem;
+        margin-top: 8px;
+    }
+
+    button {
+        margin-top: 48px;
+        padding: 12px 24px;
+        border-radius: 5px;
+        background-color: var(--primary-color);
+        color: var(--on-primary-color);
+        font-weight: 500;
+
+        &:hover {
+            background-color: var(--primary-dark);
+            transition: background-color 0.25s ease-in-out;
+        }
+    }
+}
+
+.about-content {
+    width: 80%;
+    margin-right: 40px;
+
+    h2 {
+        font-size: 3rem;
+        font-weight: 500;
+        color: var(--primary-color);
+    }
+
+    p + p {
+        margin-top: 16px;
+    }
+
+    span {
+        font-weight: 400;
+    }
+}
+
+figure {
+    width: 50%;
+}
+
+section {
+    padding-top: 40px;
 }
