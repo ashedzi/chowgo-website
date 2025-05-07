@@ -88,12 +88,17 @@ li + li {
 .hero-banner {
     height: 600px;
     background: #fff url(../img/skincare.jpg) center center / cover no-repeat;
+    /* display: flex;
+    flex-direction: column;
+   justify-content: center; */
 }
 
 .hero-content {
     width: 50%;
+    text-align: left;
 
-    h2, p {
-        text-align: left;
+    h2 {
+        font-size: 8rem;
+        line-height: 1;
     }
 }
