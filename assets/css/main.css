@@ -191,3 +191,14 @@ section {
         color: #a4a4a4;
     }
 }
+
+footer {
+    height: 60px;
+    background-color: #e7e7e7;
+
+    p {
+        text-align: center;
+        line-height: 60px;
+    }
+}
+
