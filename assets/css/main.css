@@ -17,6 +17,19 @@
     justify-content: space-between;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
 header {
     background: #EDD9E0;
 }
@@ -74,11 +87,13 @@ li + li {
 
 .hero-banner {
     height: 600px;
-    background: #fff url(../img/new-banner.jpg) center center / cover no-repeat;
+    background: #fff url(../img/skincare.jpg) center center / cover no-repeat;
 }
 
-.overlay {
-    height: auto;
-    width: 100%;
-    background: rgb(255 255 255 / 10%);
+.hero-content {
+    width: 50%;
+
+    h2, p {
+        text-align: left;
+    }
 }
