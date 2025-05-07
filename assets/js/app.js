@@ -46,6 +46,6 @@ function displayPosition() {
 }
 
 trackButton.addEventListener('click', () => {
+    mapArea.innerHTML = ''; 
     displayPosition();
-
 })
