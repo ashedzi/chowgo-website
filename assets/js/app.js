@@ -2,6 +2,8 @@
 
 const trackButton = document.querySelector('.track-button');
 const mapArea = document.querySelector('.map');
+const preview = document.querySelector('.preview');
+
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ3VybGlua2F1ciIsImEiOiJjbHExYjM4cHUwNzE3MnBud25qNDlmc2VjIn0.Jeu9BD0h1vILAwXce8dQqw';
 
 const map = new mapboxgl.Map( {
@@ -46,6 +48,6 @@ function displayPosition() {
 }
 
 trackButton.addEventListener('click', () => {
-    mapArea.innerHTML = ''; 
+    preview.classList.add('hide');
     displayPosition();
 })

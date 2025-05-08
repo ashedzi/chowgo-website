@@ -6,7 +6,7 @@
         <meta name="author" content="Ashedzi Solomon">
         <meta name="description" content="landing page">
         <meta name="keywords" content="web development, html, css, javascript, winnipeg, canada">
-        <title>Beautify landing page</title>
+        <title>ChowGo landing page</title>
         <link rel="icon" href="" type="image/png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,7 +24,7 @@
             <div class="container">
                 <div class="flex space-between">
                     <div class="title">
-                        <h1>Beautify</h1>
+                        <h1>ChowGo</h1>
                     </div>
                     <nav>
                         <ul>
@@ -37,33 +37,40 @@
             </div>
         </header>
         <main>
-            <section class="hero-banner flex column justify-center">
+            <section class="hero-banner flex center">
                 <div class="container">
-                    <div class="hero-content">
-                        <h2>Skincare that works. Beauty that lasts.</h2>
-                        <p>Glow with intention </p>
-                        <button>Place order</button>
+                    <div class="hero-container flex align-center space-between">
+                        <div class="hero-content">
+                            <h2>Craving Something Delicious?</h2>
+                            <p>From your favorite local joints to top-rated restaurants, get it delivered hot and fresh—fast. </p>
+                            <button>Order now</button>
+                        </div>
+                        <figure>
+                            <img src="./assets/img/food.png">
+                        </figure>
                     </div>
                 </div>
             </section>
             <section>
-                <div class="container flex">
+                <div class="container flex center">
                     <figure>
-                        <img src="./assets/img/green-3d.jpg">
+                        <img src="./assets/img/food-3.png">
                     </figure>
                     <div class="about-content flex column justify-center">
                         <h3>About Us</h3>
                         <p>
-                            At Beautify, we believe skincare is more than a routine, it’s a ritual of self-love. 
-                            Born from a passion for clean beauty and effective formulas, we’re here to help you embrace your 
-                            natural glow and feel confident in your skin, every single day.
+                            At ChowGo, we’re not just delivering meals — we’re delivering moments.
+                            Born out of a love for convenience and great food, ChowGo connects hungry customers with their 
+                            favorite restaurants, street food vendors, and hidden local gems — all with just a few taps.
                         </p>
                         <p>
-                           <span> Our journey began with one simple goal: </span>
-                            to create skincare that actually works without compromising your health or the planet. 
-                            That means no harsh chemicals, no empty promises, just high-quality ingredients backed by 
-                            science and inspired by nature.From gentle cleansers to glow-boosting serums, every product 
-                            is thoughtfully crafted to nourish, restore, and empower all skin types... especially yours.
+                            Whether you're at work, at home, or on the move, we believe you should never have to settle for
+                             bland or boring. That’s why we’ve built a platform that makes it easy to explore diverse cuisines, 
+                             support local kitchens, and satisfy your cravings fast.
+                        </p>
+                        <p>
+                            With real-time tracking, friendly delivery riders, and a growing network of partner restaurants, 
+                            ChowGo is more than an app — it's your go-to food companion.
                         </p>
                     </div>
                 </div>
@@ -73,13 +80,17 @@
                     <div class="flex column center">
                         <h3>Track your order?</h3>
                         <p> 
-                            Whether its one beautify product or a thousand, track your orders at once. 
-                            Beautify helps you track in real time 
+                            Whether it’s a single snack or a feast for five, track your orders in real-time. 
+                            ChowGo keeps you updated from kitchen to doorstep.
                         </p>
                         <button class="track-button">Track</button>
                     </div>
-                    <div id="map" class="map flex center">
-                        <p>Once you click 'track' map will appear here</p>
+                    <div class="map-content-container">
+                        <div class="preview flex center">
+                            <p>Once you click 'track' map will appear here</p>
+                        </div>
+                        <div id="map" class="map">
+                        </div>
                     </div>
                 </div>
             </section>
