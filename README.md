@@ -1,5 +1,5 @@
 
-## ChowGo website wit GPS tracker
+## ChowGo website with GPS tracker
 
 #### Overview
 <p>ChowGo is a sleek and interactive food delivery web app that mimics platforms like Uber Eats and DoorDash. Built with modern HTML, CSS, and JavaScript, the app allows users to explore delicious meals and track their orders in real time using geolocation and Mapbox. It showcases both UI/UX sensibility and practical frontend development skills.<p>
