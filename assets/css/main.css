@@ -10,7 +10,8 @@
     --primary-light: #6ba292;
     --primary-dark: #ad5402;
     --on-primary-color: #fff;
-    --backgroung-color: #f3f3f3f3;
+    --background-color: #0e0e0e;
+    --alternate-background: #f3f3f3f3;
 }
 
 body {
@@ -54,7 +55,7 @@ body {
 }
 
 header {
-    background: #000;
+    background: var(--background-color);
 }
 
 .title {
@@ -85,12 +86,12 @@ nav ul li {
 
     a {
         text-decoration: none;
-        color: var(--primary-color);
+        color: var(--on-primary-color);
         font-size: 1.6rem;
         font-weight: 500;
     
         &:hover {
-            color: #6ba292;
+            color: var(--primary-color);
             transition: color 0.25s ease-in-out;
         }
     }
@@ -111,7 +112,7 @@ li + li {
 
 .hero-banner {
     height: 600px;
-    background-color: #000;
+    background-color: var(--background-color);
 }
 
 .hero-content {
@@ -169,7 +170,7 @@ section {
 }
 
 .track-order {
-    background-color: #000;
+    background-color: var(--background-color);
 
     h3 {
         text-align: center;
@@ -195,11 +196,9 @@ footer {
     border-radius: 5px;
 
     .preview, .map {
-        margin-top: 24px;
         width: 100%;
         height: 100%;
         position: absolute;
-        border: 1px solid #f3f3f3;
         border-radius: 5px;
     }
 
@@ -214,6 +213,10 @@ footer {
     .map {
         z-index: 2;
     }
+}
+
+.track-content p {
+    color: var(--on-primary-color);
 }
 
 .hide {
