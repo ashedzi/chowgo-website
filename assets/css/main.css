@@ -166,7 +166,7 @@ button {
 
 
 section {
-    padding: 40px 0;
+    padding: 60px 0;
 }
 
 .track-order {
@@ -204,14 +204,14 @@ footer {
 
     .preview {
         background-color: var(--on-primary-color);
-        z-index: 1;
+        z-index: 2;
 
         p {
             color: #a4a4a4;
         }
     } 
     .map {
-        z-index: 2;
+        z-index: 1;
     }
 }
 
